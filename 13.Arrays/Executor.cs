@@ -52,8 +52,6 @@ namespace _13.Arrays
             the first occurrence within the entire one-dimensional Array.
              */
             Console.Write(Array.IndexOf(list, 72));
-
-            Console.ReadKey();
         }
     }
 }
