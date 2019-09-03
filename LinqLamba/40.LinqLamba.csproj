@@ -4,13 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F3DD6B39-E8AA-44D5-BBD3-48B6988D7EE7}</ProjectGuid>
+    <ProjectGuid>{74571EBA-9CF8-4A2B-87B1-5E86E8C51738}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_34.Collections</RootNamespace>
-    <AssemblyName>34.Collections</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <RootNamespace>LinqLamba</RootNamespace>
+    <AssemblyName>LinqLamba</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -34,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -42,12 +44,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ArrayList.cs" />
+    <Compile Include="CsharpCorner.cs" />
+    <Compile Include="4.QueryExecution.cs" />
+    <Compile Include="LinqDataTable.cs" />
+    <Compile Include="ObjectDumper.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="1.ProjectionOperators.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="2.GroupingOperators.cs" />
+    <Compile Include="3.RestrictionOperators.cs" />
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Customers.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

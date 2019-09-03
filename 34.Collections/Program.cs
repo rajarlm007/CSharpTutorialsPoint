@@ -21,6 +21,13 @@ namespace _34.Collections
             //Queue
 
             //BitArray
+
+           // ArrayListClass.ExecuteArrayList();
+           // ArrayListClass.ListExecute();
+            //ArrayListClass.HashTableExecute();
+            //ArrayListClass.HashSetExcute();
+
+            ArrayListClass.SortedListExecute();
         }
     }
 }

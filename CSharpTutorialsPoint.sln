@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27703.2026
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.PassingValues", "11.PassingValues\11.PassingValues.csproj", "{6FAEAC85-689A-4896-9700-BED4C698A409}"
 EndProject
@@ -74,6 +74,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "35.Generics", "35.Generics\35.Generics.csproj", "{7B6D37EE-F377-4660-A29D-F9C458C31977}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "36.AnnonymousMethods", "36.AnnonymousMethods\36.AnnonymousMethods.csproj", "{6B821EE1-5C48-4C30-B3F5-90CC3DD508BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "40.LinqLamba", "LinqLamba\40.LinqLamba.csproj", "{74571EBA-9CF8-4A2B-87B1-5E86E8C51738}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -225,6 +227,10 @@ Global
 		{6B821EE1-5C48-4C30-B3F5-90CC3DD508BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B821EE1-5C48-4C30-B3F5-90CC3DD508BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B821EE1-5C48-4C30-B3F5-90CC3DD508BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74571EBA-9CF8-4A2B-87B1-5E86E8C51738}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74571EBA-9CF8-4A2B-87B1-5E86E8C51738}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74571EBA-9CF8-4A2B-87B1-5E86E8C51738}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74571EBA-9CF8-4A2B-87B1-5E86E8C51738}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
