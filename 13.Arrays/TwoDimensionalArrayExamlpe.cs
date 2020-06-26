@@ -29,5 +29,10 @@ namespace _13.Arrays
                 }
             }
         }
+        public static void twoDim()
+        {
+            int[,] tst = new int[2, 1] {{ 0},{ 1}};
+
+        }
     }
 }

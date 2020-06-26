@@ -25,5 +25,14 @@ namespace _13.Arrays
                 Console.WriteLine("Element[{0}] = {1}", j, n[j]);
             }
         }
+
+        public static void DeclareArrays()
+        {
+            int[] arr = new int[5] { 10, 20, 30, 40, 50 };
+            int[] arr1 = new int[] { 10, 20, 30, 40, 50 };
+            int[] arr2 = { 10, 20, 30, 40, 50 };
+            int i, j;
+
+        }
     }
 }

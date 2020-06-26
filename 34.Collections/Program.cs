@@ -22,12 +22,21 @@ namespace _34.Collections
 
             //BitArray
 
-           // ArrayListClass.ExecuteArrayList();
-           // ArrayListClass.ListExecute();
-            //ArrayListClass.HashTableExecute();
-            //ArrayListClass.HashSetExcute();
+            CollectionsClassTest.List_Execute();
+            CollectionsClassTest.ArrayList_Execute();
+            CollectionsClassTest.LinkedList_Execute();
+            CollectionsClassTest.SortedList_Execute();
 
-            ArrayListClass.SortedListExecute();
+            CollectionsClassTest.HashSet_Excute();
+            CollectionsClassTest.SortedSet_Excute();
+
+            CollectionsClassTest.HashTable_Execute();
+            CollectionsClassTest.Dictionary_Execute();
+            CollectionsClassTest.SortedDictionary_Execute();
+
+            CollectionsClassTest.Stack_Execute();
+            CollectionsClassTest.Queue_Execute();
+
         }
     }
 }
